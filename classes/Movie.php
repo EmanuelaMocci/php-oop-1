@@ -14,4 +14,20 @@ class Movie {
       $this->durata= $_durata;
       $this->anno= $_anno;
     }
+
+    public function getTitolo(){
+      return $this->titolo;
+    }
+    public function getGenere(){
+      return $this->genere;
+    }
+    public function getRegista(){
+      return $this->regista;
+    }
+    public function getDurata(){
+      return $this->durata;
+    }
+    public function getAnno(){
+      return $this->anno;
+    }
 }

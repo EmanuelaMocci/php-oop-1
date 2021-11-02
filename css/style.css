@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #222222;
+    font-family: sans-serif;
+}
+
+/* navbar */
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: linear-gradient(to right, #1464BB, #092444);
+    padding: 20px;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar ul li{
+    list-style: none;
+}
+.navbar ul li a{
+    color: #F4F6F8;
+    text-decoration: none;
+    padding: 0 15px;
+}
+.navbar i{
+    color: #F4F6F8;
+}
+.navbar img{
+    width: 100px;
+}
+/* navbar */
+
+/* movies */
+
+/* movie1 */
+.centered{
+    display: flex;
+    position: absolute;
+    top: 250px;
+    left: 200px;
+}
+.movie1 img, .movie2 img{
+    height: 350px;
+}
+.movie1, .movie2{
+    position: relative;
+}
+.dettagli{
+    position: relative;
+}
+.dettagli .dati{
+    margin-left: 30px;
+}
+.dettagli .dati h2{
+    display: inline;
+    color: white;
+    font-size: 40px;
+}
+.trama{
+    position: absolute;
+    top: 275px;
+    left: 300px;
+    width: 450px;
+    color: white;
+    line-height: 1.8;
+}
+hr{
+    margin: 30px 0 200px 0;
+}
+h3{
+    color: white;
+}
+h4 {
+    color: rgb(173, 172, 172);
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.banner{
+    background-image: url("https://mr.comingsoon.it/rsz/locandine/poster/41117_hd.jpg?preset=wide1920");
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 500px;
+    opacity: 0.6;
+}
+
+/* /movie1 */
+
+/* movie2 */
+.banner2{
+    background-image: url("https://mr.comingsoon.it/rsz/locandine/poster/39547_hd.jpg?preset=wide1920");
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 500px;
+    opacity: 0.6;
+}
+.movie2{
+    padding: 300px 0;
+}
+.centered2{
+    display: flex;
+    position: absolute;
+    top: 550px;
+    left: 200px;
+}
+
+/* /movie2 */
+
+/* /movies */
